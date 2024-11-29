@@ -40,7 +40,7 @@ body{
     display: flex;
     justify-content:center ;
     padding-block: 10px;
-    height: 200px;
+    height: 400px;
     justify-content: space-between;
     padding-inline: 70px;
     
@@ -51,7 +51,6 @@ body{
     flex-direction: column;
     background-color: darkgreen;
     display: flex;
-    justify-content:center ;
     padding-block: 10px;
     height: 200px;
     justify-content: space-between;
@@ -61,17 +60,31 @@ body{
 }
 
 .foobar{
+    flex-direction: column;
     background-color: rgb(43, 42, 41);
     display: flex;
-    justify-content:center ;
     padding-block: 10px;
-    height: 200px;
+    height: 400px;
     padding-inline: 70px;
     align-items: center;
     justify-content: space-between;
 }
 
-.foobar-items{
+.foobar_item-container{
+    display: flex; 
+    width: 100%;
+    justify-content: space-between
+}
+
+.foobar_item{
+    display: flex;
     flex-direction: column;
 }
 
+.foobar_end{
+    width: 100%;
+    display: flex ;
+    justify-content: space-between;
+    border-top: 1px solid purple;
+    
+}
